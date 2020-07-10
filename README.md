@@ -1,6 +1,8 @@
 # tmux_settings
+* Be sure to backup your config
+  * `.tmux.donf`
+  * `.tmux/`
 
 ```bash
-cd .tmux/plugins
-cat installed_plugins | xargs -n 1 -P 10 -i bash -c "echo ----- Downloading Tmux Plugin : {} -----; git clone https://github.com/{}.git; echo "
+bash <(curl -LSs https://raw.githubusercontent.com/charlietag/tmux_settings/master/utils/install.sh)
 ```
