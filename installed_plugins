@@ -1,8 +1,0 @@
-tmux-plugins/tpm
-tmux-plugins/tmux-sensible
-charlietag/tmux-themes
-tmux-plugins/tmux-copycat
-tmux-plugins/tmux-resurrect
-tmux-plugins/tmux-continuum
-charlietag/tmux-cpu-model
-charlietag/tmux-split-statusbar
