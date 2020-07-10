@@ -46,6 +46,8 @@ if [[ -f "${TMUX_CONF}" ]]; then
     xargs -n 1 -P ${GIT_FETCH_CONCURRENCY} -i bash -c \
     "echo ----- Downloading Tmux Plugin : {} -----; git clone https://github.com/{}.git; echo "
   # ---- Start Fetching tmux plugins from github END----
+  echo ""
+  echo "---------- Tmux settings finished ----------"
 
 else
   echo "${TMUX_CONF} not found !!!"
