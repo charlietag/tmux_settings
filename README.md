@@ -5,8 +5,8 @@
 Deploy my TMUX setting and TMUX plugins using [``Tmux Plugin Manager``](https://github.com/tmux-plugins/tpm) on **CentOS 8**
 
 * Be sure to **backup your config**
-  * `.tmux.conf`
-  * `.tmux/`
+  * `$HOME/.tmux.conf`
+  * `$HOME/.tmux/`
 
 ## Installed Plugins
 
