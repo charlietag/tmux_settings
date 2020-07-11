@@ -39,11 +39,12 @@ $ bash <(curl -LSs https://raw.githubusercontent.com/charlietag/tmux_settings/ma
 * Install TMUX plugins
   * `mkdir -p $HOME/.tmux/plugins`
   * `cd $HOME/.tmux/plugins`
+  * Download tmux plugins
 
-  * ```bash
-  cat $HOME/.tmux.conf |grep '@plugin' |grep -Ev "^#" | awk -F"'" '{print $2}' | \
-    xargs -n 1 -P 10 -i bash -c \
-    "echo ----- Downloading Tmux Plugin : {} -----; git clone https://github.com/{}.git; echo "
-  ```
+    ```bash
+    cat $HOME/.tmux.conf |grep '@plugin' |grep -Ev "^#" | awk -F"'" '{print $2}' | \
+      xargs -n 1 -P 10 -i bash -c \
+      "echo ----- Downloading Tmux Plugin : {} -----; git clone https://github.com/{}.git; echo "
+    ```
 
 * Done
