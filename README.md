@@ -37,7 +37,9 @@ $ bash <(curl -LSs https://raw.githubusercontent.com/charlietag/tmux_settings/ma
   * `ln -s $HOME/.tmux/tmux_settings/tmux.conf $HOME/.tmux.conf`
 
 * Install TMUX plugins
+
   `mkdir -p $HOME/.tmux/plugins`
+
   `cd $HOME/.tmux/plugins`
 
   ```bash
