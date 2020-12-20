@@ -1,5 +1,13 @@
 # tmux_settings
 
+## SSH Client
+
+This is fully tested on
+
+* Chrome Secure Shell (MacOS / Windows)
+  * https://chrome.google.com/webstore/detail/secure-shell/iodihamcpbpeioajjeobimgagajmlibd
+* Putty (Windows)
+
 ## Description
 
 Deploy my TMUX setting and TMUX plugins using [``Tmux Plugin Manager``](https://github.com/tmux-plugins/tpm) on **CentOS 8**
