@@ -56,3 +56,16 @@ $ bash <(curl -LSs https://raw.githubusercontent.com/charlietag/tmux_settings/ma
     ```
 
 * Done
+
+## Note
+
+* Change layout, ex: vertical to horizantal
+  * `Ctrl`+`a`+`space`
+* Equal size for all panes
+  * `Ctrl`+`a`+`E`
+* Text copied in tmux (COPY c+a+[+V+enter) PASTE (c+a+]) - (it's actually save into tmux buffer)
+  * List all buffers
+    * `Ctrl`+`a`+`=`
+  * Delete buffers (Just delete one by one, without knowing how many are deleted...)
+    * `Ctrl`+`a`+`-`
+
