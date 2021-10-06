@@ -7,6 +7,9 @@ This is fully tested on
 * Chrome Secure Shell (MacOS / Windows)
   * https://chrome.google.com/webstore/detail/secure-shell/iodihamcpbpeioajjeobimgagajmlibd
 * Putty (Windows)
+* Terminal (Ubuntu)
+* iTerm2 (MacOS)
+* Royal TSX (MacOS)
 
 ## Description
 
