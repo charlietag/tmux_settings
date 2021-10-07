@@ -8,8 +8,18 @@ This is fully tested on
   * https://chrome.google.com/webstore/detail/secure-shell/iodihamcpbpeioajjeobimgagajmlibd
 * Putty (Windows)
 * Terminal (Ubuntu)
-* iTerm2 (MacOS)
-* Royal TSX (MacOS)
+* Royal TSX (MacOS) & iTerm2 (MacOS)
+  * Useful settings for RoyalTSX-iTerm2
+    * Default connection window size
+      ![tsx_01_ssh_window_mode.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/tsx_01_ssh_window_mode.png)
+    * SSH session keep-alive
+      ![tsx_02_ssh_session_keepalive.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/tsx_02_ssh_session_keepalive.png)
+    * Make vim work normally
+      ![tsx_03_ssh_input_setting.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/tsx_03_ssh_input_setting.png)
+    * Key mapping for tmux swap-window to left/right (alt-option + z / alt-option + x)
+      ![tsx_04_ssh_key_mapping.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/tsx_04_ssh_key_mapping.png)
+      ![tsx_04_ssh_key_mapping_alt_x.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/tsx_04_ssh_key_mapping_alt_x.png)
+      ![tsx_04_ssh_key_mapping_alt_z.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/tsx_04_ssh_key_mapping_alt_z.png)
 
 ## Description
 
