@@ -10,6 +10,7 @@ This is fully tested on
       ![iTerm2_01_terminal_color_scheme.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/iTerm2_01_terminal_color_scheme.png)
 
     * SSH session keep-alive
+
       `ssh -o ServerAliveInterval=30 charlietag@github.com -p 22`
 
     * Make vim work normally - disable mouse reporting
