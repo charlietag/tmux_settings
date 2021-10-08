@@ -1,50 +1,5 @@
 # tmux_settings
 
-## SSH Client
-
-This is fully tested on
-
-* iTerm2 (MacOS) - `Most Recommended`
-  * **Useful settings**
-    * My iTerm2 colorscheme
-      ![iTerm2_01_terminal_color_scheme.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/iTerm2_01_terminal_color_scheme.png)
-
-    * SSH session keep-alive
-
-      `ssh -o ServerAliveInterval=30 charlietag@github.com -p 22`
-
-    * Make vim work normally - disable mouse reporting
-      ![iTerm2_02_disable_mouse_reporting.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/iTerm2_02_disable_mouse_reporting.png)
-    * Key mapping for tmux swap-window to left/right (alt-option + z / alt-option + x)
-      ![iterm2_03_key_mappings.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/iterm2_03_key_mappings.png)
-      ![iterm2_03_key_mappings_alt_x.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/iterm2_03_key_mappings_alt_z.png)
-      ![iterm2_03_key_mappings_alt_x.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/iterm2_03_key_mappings_alt_x.png)
-
-
-* Chrome Secure Shell (MacOS / Windows)
-  * https://chrome.google.com/webstore/detail/secure-shell/iodihamcpbpeioajjeobimgagajmlibd
-
-* Royal TSX (MacOS)
-  * Useful but screen response is kind of delay
-  * Useful settings for RoyalTSX-iTerm2
-    * Default connection window size
-      ![tsx_01_ssh_window_mode.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/tsx_01_ssh_window_mode.png)
-    * SSH session keep-alive
-      ![tsx_02_ssh_session_keepalive.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/tsx_02_ssh_session_keepalive.png)
-    * Make vim work normally - disable mouse reporting
-      ![tsx_03_ssh_input_setting.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/tsx_03_ssh_input_setting.png)
-    * Key mapping for tmux swap-window to left/right (alt-option + z / alt-option + x)
-      ![tsx_04_ssh_key_mapping.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/tsx_04_ssh_key_mapping.png)
-      ![tsx_04_ssh_key_mapping_alt_z.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/tsx_04_ssh_key_mapping_alt_z.png)
-      ![tsx_04_ssh_key_mapping_alt_x.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/tsx_04_ssh_key_mapping_alt_x.png)
-
-* Terminal (Ubuntu)
-  * To use F10 in vim
-    ![use_f10.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/ubuntu/use_f10.png)
-
-* Putty (Windows)
-
-
 ## Description
 
 Deploy my TMUX setting and TMUX plugins using [``Tmux Plugin Manager``](https://github.com/tmux-plugins/tpm) on **CentOS 8**
@@ -105,4 +60,48 @@ $ bash <(curl -LSs https://raw.githubusercontent.com/charlietag/tmux_settings/ma
     * `Ctrl`+`a`+`=`
   * Delete buffers (Just delete one by one, without knowing how many are deleted...)
     * `Ctrl`+`a`+`-`
+
+## SSH Client
+
+This is fully tested on
+
+* iTerm2 (MacOS) - `Most Recommended`
+  * **Useful settings**
+    * My iTerm2 colorscheme
+      ![iTerm2_01_terminal_color_scheme.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/iTerm2_01_terminal_color_scheme.png)
+
+    * SSH session keep-alive
+
+      `ssh -o ServerAliveInterval=30 charlietag@github.com -p 22`
+
+    * Make vim work normally - disable mouse reporting
+      ![iTerm2_02_disable_mouse_reporting.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/iTerm2_02_disable_mouse_reporting.png)
+    * Key mapping for tmux swap-window to left/right (alt-option + z / alt-option + x)
+      ![iterm2_03_key_mappings.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/iterm2_03_key_mappings.png)
+      ![iterm2_03_key_mappings_alt_x.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/iterm2_03_key_mappings_alt_z.png)
+      ![iterm2_03_key_mappings_alt_x.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/iterm2_03_key_mappings_alt_x.png)
+
+
+* Chrome Secure Shell (MacOS / Windows)
+  * https://chrome.google.com/webstore/detail/secure-shell/iodihamcpbpeioajjeobimgagajmlibd
+
+* Royal TSX (MacOS)
+  * Useful but screen response is kind of delay
+  * Useful settings for RoyalTSX-iTerm2
+    * Default connection window size
+      ![tsx_01_ssh_window_mode.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/tsx_01_ssh_window_mode.png)
+    * SSH session keep-alive
+      ![tsx_02_ssh_session_keepalive.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/tsx_02_ssh_session_keepalive.png)
+    * Make vim work normally - disable mouse reporting
+      ![tsx_03_ssh_input_setting.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/tsx_03_ssh_input_setting.png)
+    * Key mapping for tmux swap-window to left/right (alt-option + z / alt-option + x)
+      ![tsx_04_ssh_key_mapping.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/tsx_04_ssh_key_mapping.png)
+      ![tsx_04_ssh_key_mapping_alt_z.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/tsx_04_ssh_key_mapping_alt_z.png)
+      ![tsx_04_ssh_key_mapping_alt_x.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/tsx_04_ssh_key_mapping_alt_x.png)
+
+* Terminal (Ubuntu)
+  * To use F10 in vim
+    ![use_f10.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/ubuntu/use_f10.png)
+
+* Putty (Windows)
 
