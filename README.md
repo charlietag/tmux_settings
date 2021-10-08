@@ -70,6 +70,9 @@ This is fully tested on
     * My iTerm2 colorscheme
       ![iTerm2_01_terminal_color_scheme.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/iTerm2_01_terminal_color_scheme.png)
 
+    * Disable all bell alerts
+      ![iTerm2_disable_bell_alert.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/iTerm2_disable_bell_alert.png)
+
     * SSH session keep-alive
 
       `ssh -o ServerAliveInterval=30 charlietag@github.com -p 22`
