@@ -66,7 +66,7 @@ $ bash <(curl -LSs https://raw.githubusercontent.com/charlietag/tmux_settings/ma
 This is fully tested on
 
 * iTerm2 (MacOS) - `Most Recommended`
-  * **Useful settings**
+  * **Useful settings (personal setting)**
     * My iTerm2 colorscheme
       ![iTerm2_01_terminal_color_scheme.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/iTerm2_01_terminal_color_scheme.png)
 
@@ -88,6 +88,9 @@ This is fully tested on
 
     * Key mapping for tmux move-pane to up/down/left/right (⌘ + up/down/left/right)
       ![iTerm2_command_arrow.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/iTerm2_command_arrow.png)
+
+    * Key mapping for ignoring ⌘ + t
+      ![iTerm2_ignore_command_t.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/iTerm2_ignore_command_t.png)
 
 
 * Chrome Secure Shell (MacOS / Windows)
