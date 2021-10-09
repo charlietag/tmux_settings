@@ -86,6 +86,9 @@ This is fully tested on
       ![iterm2_03_key_mappings_alt_x.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/iterm2_03_key_mappings_alt_z.png)
       ![iterm2_03_key_mappings_alt_x.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/iterm2_03_key_mappings_alt_x.png)
 
+    * Key mapping for tmux move-pane to up/down/left/right (⌘ + up/down/left/right)
+      ![iTerm2_command_arrow.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/iTerm2_command_arrow.png)
+
 
 * Chrome Secure Shell (MacOS / Windows)
   * https://chrome.google.com/webstore/detail/secure-shell/iodihamcpbpeioajjeobimgagajmlibd
