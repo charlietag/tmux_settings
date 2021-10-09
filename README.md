@@ -80,6 +80,8 @@ This is fully tested on
     * Make vim work normally - disable mouse reporting
       ![iTerm2_02_disable_mouse_reporting.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/iTerm2_02_disable_mouse_reporting.png)
     * Key mapping for tmux swap-window to left/right (alt-option + z / alt-option + x)
+      * https://github.com/c-bata/go-prompt/blob/master/input.go
+
       ![iterm2_03_key_mappings.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/iterm2_03_key_mappings.png)
       ![iterm2_03_key_mappings_alt_x.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/iterm2_03_key_mappings_alt_z.png)
       ![iterm2_03_key_mappings_alt_x.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/iterm2_03_key_mappings_alt_x.png)
