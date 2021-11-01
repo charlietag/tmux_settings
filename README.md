@@ -67,7 +67,7 @@ This is fully tested on
 
 * iTerm2 (MacOS) - `Most Recommended`
   * **Useful settings (personal setting)**
-    * Fix **warning: setlocale: LC_CTYPE: cannot change locale (UTF-8)**
+    * Fix **warning: setlocale: LC_CTYPE: cannot change locale (UTF-8)**, try command `locale`
       ![iterm2_disable_setting_LC_ALL.png](https://raw.githubusercontent.com/charlietag/github_share_folder/master/doc_images/tmux_settings/iTerm2/iterm2_disable_setting_LC_ALL.png)
 
     * My iTerm2 colorscheme
