@@ -14,8 +14,8 @@ Deploy my TMUX setting and TMUX plugins using [``Tmux Plugin Manager``](https://
 * tmux-plugins/tmux-sensible
 * charlietag/tmux-themes
 * tmux-plugins/tmux-copycat
-* tmux-plugins/tmux-resurrect
-* tmux-plugins/tmux-continuum
+* ~~tmux-plugins/tmux-resurrect~~
+* ~~tmux-plugins/tmux-continuum~~
 * charlietag/tmux-cpu-model
 * charlietag/tmux-split-statusbar
 
