@@ -22,7 +22,7 @@ Deploy my TMUX setting and TMUX plugins using [``Tmux Plugin Manager``](https://
 ## Automatic Installation (Recommend)
 
 ```bash
-$ bash <(curl -LSs https://raw.githubusercontent.com/charlietag/tmux_settings/master/utils/install.sh)
+bash <(curl -LSs https://raw.githubusercontent.com/charlietag/tmux_settings/master/utils/install.sh)
 ```
 
 ## Manual Installation
