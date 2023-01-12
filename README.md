@@ -42,8 +42,12 @@ bash <(curl -LSs https://raw.githubusercontent.com/charlietag/tmux_settings/mast
   * Download tmux plugins
 
     ```bash
+    # (-n equals to --max-args)
+    # xargs: warning: options --max-args and --replace/-I/-i are mutually exclusive, ignoring previous --max-args value
+    #  xargs -n 1 -P ${GIT_FETCH_CONCURRENCY} -I bash -c \
+
     cat $HOME/.tmux.conf |grep '@plugin' |grep -Ev "^#" | awk -F"'" '{print $2}' | \
-      xargs -n 1 -P 10 -i bash -c \
+      xargs -P 10 -I "{}" bash -c \
       "echo ----- Downloading Tmux Plugin : {} -----; git clone https://github.com/{}.git; echo "
     ```
 
