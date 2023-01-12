@@ -42,8 +42,13 @@ if [[ -f "${TMUX_CONF}" ]]; then
 
   # ---- Start Fetching tmux plugins from github ----
   GIT_FETCH_CONCURRENCY=10
+
+  # (-n equals to --max-args)
+  # xargs: warning: options --max-args and --replace/-I/-i are mutually exclusive, ignoring previous --max-args value
+  #  xargs -n 1 -P ${GIT_FETCH_CONCURRENCY} -I bash -c \
+
   cat ${TMUX_CONF} |grep '@plugin' |grep -Ev "^#" | awk -F"'" '{print $2}' | \
-    xargs -n 1 -P ${GIT_FETCH_CONCURRENCY} -I bash -c \
+    xargs -P ${GIT_FETCH_CONCURRENCY} -I "{}" bash -c \
     "echo ----- Downloading Tmux Plugin : {} -----; git clone https://github.com/{}.git; echo "
   # ---- Start Fetching tmux plugins from github END----
   echo ""
